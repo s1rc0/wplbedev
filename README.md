@@ -8,10 +8,5 @@ Docker container with Java8+Erlang+Postgres stack based on Centos7
 
 ### Usage
 
-    docker run -d -p 80:80 docker pull s1rc0/nginx-php-fpm
+    docker run -d s1rc0/wplbedev
 
-#### Attach persistent/shared directories
-
-    docker run -d -p 80:80 -v <html-dir>:/usr/share/nginx/html s1rc0/nginx-php-fpm
-
-After few seconds, open `http://<host>` to see the welcome page.
